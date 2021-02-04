@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+
+  height: 100vh !important;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  height: 80vh;
+  width: 90%;
+  margin: auto;
+}
+
+.cardOne {
+  background: rgb(8, 8, 238);
+}
+
+.cardTwo {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2rem;
+}
+
+.gradient {
+  background: linear-gradient(88deg, red, yellow);
+}
+
+.img {
+  background-image: url(./pexels-pixabay-51953.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.text-img {
+  color: rgb(236, 11, 11);
+  display: flex;
+  font-size: 50px;
+}
+
